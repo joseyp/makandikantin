@@ -3,11 +3,9 @@ the database file is in the database folder. please edit the db connection auth 
 
 **LIST OF ROUTES**
 - . / -- method **GET**
-**return** : "hello word" (dummy)
-
+  **return** : "hello word" (dummy)
 - . /canteen -- method **GET**
 to get all canteen data
-
 **return** : canteen data (json)
 - . /canteen -- method **POST**
 to adding new canteen
