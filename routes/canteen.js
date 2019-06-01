@@ -17,7 +17,7 @@ router.get("/canteen/:canteen_id", (req, res) => {
         }
     }).then(canteen => {
         if (!canteen) {
-            return res.json({"s": 0,"msg": "canteen not found"});
+            return res.json({"msg": "canteen not found"});
         }
         res.json({data: canteen});
     });
