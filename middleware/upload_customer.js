@@ -1,8 +1,8 @@
 const multer  = require('multer');
 const path = require('path');
-const crypto = require('crypto'); 
+const crypto = require('crypto');
 
-const publicDir = require('path').join(__dirname, '/../public/assets/images/canteen');
+const publicDir = require('path').join(__dirname, '/../public/assets/images/customer');
 const storage = multer.diskStorage({
     destination: publicDir,
     filename: (req, file, cb) => {

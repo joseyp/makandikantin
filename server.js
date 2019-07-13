@@ -11,8 +11,10 @@ app.use(express.static('public'));
 // console.log(process.env.DB_NAME);
 
 // list of routes 
-const canteen = require('./routes/canteen');
-const seller  = require('./routes/seller');
+const canteen  = require('./routes/canteen');
+const seller   = require('./routes/seller');
+const customer = require('./routes/customer');
+const menu     = require('./routes/menu');
 
 app.get('/', (req, res) => {
     res.send("Hello World!");
@@ -20,6 +22,8 @@ app.get('/', (req, res) => {
 
 app.use(canteen);
 app.use(seller);
+app.use(customer);
+app.use(menu);
 
 app.listen(port, () => {
     console.log(`server running on port ${port}`);

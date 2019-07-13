@@ -1,7 +1,7 @@
 const express = require('express');
 const Canteen = require('../models/canteen');
 const router  = express.Router();
-const upload  = require('../middleware/upload');
+const upload  = require('../middleware/upload_canteen');
 const request = require('request');
 
 router.get("/canteen", (req, res) => {
@@ -55,9 +55,7 @@ router.put("/canteen/:canteen_id", upload.single('canteen_img'), (req, res) => {
                         canteen_id: req.params.canteen_id
                     }
                 }).then(canteen => {
-                    res.json({
-                        "data": canteen
-                    });
+                    res.json({"id": req.params.canteen_id});
                 });
             });
         }
