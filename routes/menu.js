@@ -37,7 +37,7 @@ router.get("/menu/getBySeller/:seller_id", (req, res) => {
 router.post("/menu", upload.single('menu_img'), (req, res) => {
     const x = {
         menu_name: req.body.menu_name,
-        menu_username: req.body.menu_price,
+        menu_price: req.body.menu_price,
         menu_img: req.file === undefined ? "" : req.file.filename,
         seller_id: req.body.seller_id,
     };
