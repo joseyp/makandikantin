@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 14, 2019 at 01:07 PM
+-- Generation Time: Jul 14, 2019 at 02:10 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.1.27
 
@@ -96,7 +96,6 @@ CREATE TABLE `menu` (
 --
 
 INSERT INTO `menu` (`menu_id`, `menu_name`, `menu_price`, `menu_img`, `seller_id`) VALUES
-(1, 'menu one', 10000, '', 1),
 (4, '123123', 0, '49278329768a077afee4239d64e43961.jpg', 0);
 
 -- --------------------------------------------------------
