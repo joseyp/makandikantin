@@ -1,31 +1,34 @@
-/*LANDING PAGE*/
+/*NAVBAR*/
 
+.nav-o{
 
-.bg-landing-01{
-    background:blue;
-    height: 100%;
-    
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.r{
+    padding-top: 100px;
+}
+/*
+.nav-o{
+ 
+    width: 1440px;
+    height: 105px;
+    left: 0px;
+    top: 0px;
+
 }
 
-.font-roboto{
-    font-family: 'Roboto', sans-serif;
+.nav-brand-o{
+    margin-right: 9px;
 }
 
-.btn-to{
-    border-radius: 100px;
-    width: 88px;
-    height: 36px;
-}
-
-.nav-to{
-    height: 65px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.nav-tog-to{
-    margin-bottom: 20px;
-    
-}
+.nav-btn-o{
+width: 120px;
+height: 48px;
+top: 28px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.25);
+box-sizing: border-box;
+border-radius: 5px;
+margin-right: 10px;
+} */
