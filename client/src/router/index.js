@@ -9,26 +9,20 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    // jangan lupa import Home kalo mau coba home tapi masih error
     {
-      path: '/',
+      path: '/Home',
       name: 'Home',
       component: Home
     },
     {
-      path: '/',
+      path: '/Register',
       name: 'Register',
       component: Register
     },
     {
-      path: '/',
+      path: '/Login',
       name: 'Login',
       component: Login
     }
-    // {
-    //   path: '/',
-    //   name: 'HelloWorld',
-    //   component: HelloWorld
-    // }
   ]
 })
