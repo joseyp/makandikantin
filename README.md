@@ -37,7 +37,7 @@ to add a new seller data
 **return** : instered seller data
 * `seller/:seller_id` method **PUT**  
 to update / edit a specific seller. pass the **seller_id** as a parameter  
-**what to send** : seller_name, seller_username, seller_password, seller_img (file upload), canteen_id. **pls match the name**  
+**what to send** : seller_name, seller_password, seller_img (file upload), canteen_id. **pls match the name**  
 **return** : the id of updated seller if success, a msg if not
 * `seller/:seller_id` method **DELETE**  
 to delete a specific seller. pass the **seller_id** as a parameter  
