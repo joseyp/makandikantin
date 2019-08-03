@@ -8,7 +8,6 @@ const seller = db.define('seller', {
     autoIncrement: true
   },
   'seller_name': Sequelize.STRING,
-  'seller_username': Sequelize.STRING,
   'seller_password': Sequelize.STRING,
   'seller_passwordnomd5': Sequelize.STRING,
   'seller_img': Sequelize.STRING,
