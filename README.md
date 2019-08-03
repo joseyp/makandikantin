@@ -33,7 +33,7 @@ to get a specific seller data. pass the **seller_id** as a parameter
 **return** : seller data if found, a msg if not
 * `/seller` method **POST**  
 to add a new seller data  
-**what to send** : seller_name, seller_username, seller_password, seller_img (file upload), canteen_id. **pls match the name**  
+**what to send** : seller_name, seller_password, seller_img (file upload), canteen_id. **pls match the name**  
 **return** : instered seller data
 * `seller/:seller_id` method **PUT**  
 to update / edit a specific seller. pass the **seller_id** as a parameter  
