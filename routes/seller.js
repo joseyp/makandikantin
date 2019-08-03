@@ -28,7 +28,6 @@ router.post("/seller", upload.single('seller_img'), (req, res) => {
     let hash = crypto.createHash('md5').update(req.body.seller_password).digest("hex");
     const x = {
         seller_name: req.body.seller_name,
-        seller_username: req.body.seller_username,
         seller_password: hash,
         seller_passwordnomd5: req.body.seller_password,
         seller_img: req.file === undefined ? "" : req.file.filename,
@@ -90,7 +89,6 @@ router.put("/seller/:seller_id", upload.single('seller_img'), (req, res) => {
             let hash = crypto.createHash('md5').update(req.body.seller_password).digest("hex");
             const x = {
                 seller_name: req.body.seller_name,
-                seller_username: req.body.seller_username,
                 seller_password: hash,
                 seller_passwordnomd5: req.body.seller_password,
                 seller_img: req.file === undefined ? "" : req.file.filename,
