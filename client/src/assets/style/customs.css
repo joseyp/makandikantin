@@ -27,6 +27,7 @@ top: 9px;
 .bg-of{
   background-color: #F9FAFB;
   padding-top: 150px;
+    height: 580px;
 }
 
 .bg-loginregist-of{
@@ -61,6 +62,74 @@ top: 9px;
   border-radius: 5px;
 }
 
+/*tabel*/
+
+.table-of{
+  width: 95%;
+}
+
+.cb-of{
+  width: 16px;
+height: 16px;
+left: 1363px;
+top: 412px;
+}
+
+.bg2-of{
+    background-color: #F9FAFB;
+    height: 1000px;
+}
+
+.btn-border-of{
+  border: 1px solid #90A0B7;
+}
+
+.langding-of{
+  padding-top: 60px;
+  padding-left: 10%;
+}
+
+
+
+.fontt-landing-of{
+  font-size: 40px;
+}
+
+
+.userimg-of{
+width: 35px;
+height: 35px;
+border-radius: 100px;
+}
+
+.sidebar-of{
+height: 1000px;
+}
+
+.fontc-1-of{
+  color: #90A0B7;
+  font-size: 14px;
+}
+
+.fontc-2-of{
+  font-weight: bold;
+  font-size: 16px;
+}
+.fontc-3-of{
+  color: #707683;
+}
+
+.fontc-4-of{
+  color: #334D6E;
+}
+
+.font14-of{
+  font-size: 14px;
+}
+
+.btns-1-of{
+  border: 1px solid #90A0B7;
+}
 /*
 
 <img src="../assets/img/bg-login-register.svg" class="bg-of">

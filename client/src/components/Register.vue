@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <Header></Header>
   <div class="bg-of bg-loginregist-of font-of">
     <div class="row justify-content-center">
       <p class="font-weight-bold fonttitle-lr-of">Daftar</p>
@@ -68,6 +70,7 @@
         </div>
       <!-- </div> -->
   </div>
+</div>
 </template>
 
 <script>

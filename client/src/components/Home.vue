@@ -1,5 +1,8 @@
 <template>
- <p>ini home :) </P>
+  <div>
+    <Header></Header>
+     <p>ini home :) </P>
+  </div>
 </template>
 
 <script>
