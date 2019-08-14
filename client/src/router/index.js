@@ -6,6 +6,7 @@ import Register from '@/components/Register'
 import Login from '@/components/Login'
 import RegisterCustomer from '@/components/RegisterCustomer'
 import LandingAdmin from '@/components/LandingAdmin'
+import LandingRestoran from '@/components/LandingRestoran'
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ export default new Router({
       path: '/Landing-Admin',
       name: 'LandingAdmin',
       component: LandingAdmin
+    },
+    {
+      path: '/Landing-Restoran',
+      name: 'LandingAdmin',
+      component: LandingRestoran
     }
   ]
 })

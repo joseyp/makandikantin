@@ -12,7 +12,7 @@
            <div class="input-group-prepend shadow-sm">
              <span class="input-group-text bg-white border-white" id="inputGroup-sizing-default"><img src="../assets/img/i-name.svg"></span>
            </div>
-           <input type="text" class="form-control border-left-0 shadow-sm border-white" placeholder="Name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+           <input type="text" class="form-control border-left-0 shadow-sm border-white fontc-1-of" placeholder="Nama" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
          </div>
        </div>
      </div>
@@ -22,7 +22,7 @@
             <div class="input-group-prepend shadow-sm">
               <span class="input-group-text bg-white border-white" id="inputGroup-sizing-default"><img src="../assets/img/i-email.svg"></span>
             </div>
-            <input type="text" class="form-control border-left-0 shadow-sm border-white" placeholder="Email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <input type="text" class="form-control border-left-0 shadow-sm border-white fontc-1-of" placeholder="Email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
           </div>
         </div>
       </div>
@@ -32,7 +32,7 @@
               <div class="input-group-prepend shadow-sm">
                 <span class="input-group-text bg-white border-white" id="inputGroup-sizing-default"><img src="../assets/img/i-lock.svg"></span>
               </div>
-              <input type="text" class="form-control border-left-0 shadow-sm border-white" placeholder="Kata Sandi" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              <input type="text" class="form-control border-left-0 shadow-sm border-white fontc-1-of" placeholder="Kata Sandi" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@
                <div class="input-group-prepend shadow-sm">
                  <span class="input-group-text bg-white border-white" id="inputGroup-sizing-default">----</span>
                </div>
-                 <select id="inputState" class="form-control border-left-0 shadow-sm border-white">
+                 <select id="inputState" class="form-control border-left-0 shadow-sm border-white fontc-1-of">
                    <option selected>Pilih user</option>
                    <option>Pelangan</option>
                    <option>Restoran</option>
@@ -63,7 +63,7 @@
         </div>
         <div class="row justify-content-center">
              <div>
-               <router-link to="/Register-Customer">
+               <router-link to="/Landing-Restoran">
                <button type="submit" class="btn btn-primary shadow-lg btn-lr-of">Daftar</button>
              </router-link>
              </div>

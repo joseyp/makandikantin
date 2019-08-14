@@ -90,12 +90,18 @@ top: 412px;
 }
 
 
-
+.borderr-of{
+  border-radius: 100px;
+}
 .fontt-landing-of{
   font-size: 40px;
 }
 
 
+.fotoimg-of{
+  width: 50px;
+  height: 50px;
+}
 .userimg-of{
 width: 35px;
 height: 35px;
@@ -123,12 +129,20 @@ height: 1000px;
   color: #334D6E;
 }
 
+.fontc-5-of{
+  color: #90A0B7;
+  font-size: 18px;
+}
 .font14-of{
   font-size: 14px;
 }
 
 .btns-1-of{
   border: 1px solid #90A0B7;
+}
+
+.alert-of{
+  height: 70px;
 }
 /*
 

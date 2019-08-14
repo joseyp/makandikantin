@@ -1,6 +1,6 @@
 <template>
   <div>
-        <Header></Header>
+    <Header></Header>
   <div class="bg-of bg-loginregist-of font-of">
     <div class="row justify-content-center">
       <p class="font-weight-bold fonttitle-lr-of">Login</p>
@@ -12,7 +12,7 @@
             <div class="input-group-prepend shadow-sm">
               <span class="input-group-text bg-white border-white" id="inputGroup-sizing-default"><img src="../assets/img/i-email.svg"></span>
             </div>
-            <input type="text" class="form-control border-left-0 shadow-sm border-white" placeholder="Email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <input type="text" class="form-control border-left-0 shadow-sm border-white fontc-1-of" placeholder="Email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
           </div>
         </div>
       </div>
@@ -22,7 +22,7 @@
              <div class="input-group-prepend shadow-sm">
                <span class="input-group-text bg-white border-white" id="inputGroup-sizing-default"><img src="../assets/img/i-lock.svg"></span>
              </div>
-             <input type="text" class="form-control border-left-0 shadow-sm border-white" placeholder="Kata Sandi" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+             <input type="text" class="form-control border-left-0 shadow-sm border-white fontc-1-of" placeholder="Kata Sandi" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
            </div>
          </div>
        </div>
