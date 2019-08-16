@@ -2,9 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Home from '@/components/Home'
-import Register from '@/components/Register'
-import Login from '@/components/Login'
 import RegisterCustomer from '@/components/RegisterCustomer'
+import Login from '@/components/Login'
+import RegisterRestaurant from '@/components/RegisterRestaurant'
 import LandingAdmin from '@/components/LandingAdmin'
 import LandingRestoran from '@/components/LandingRestoran'
 
@@ -18,9 +18,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/Register',
-      name: 'Register',
-      component: Register
+      path: '/Register-Customer',
+      name: 'RegisterCustomer',
+      component: RegisterCustomer
     },
     {
       path: '/Login',
@@ -28,9 +28,9 @@ export default new Router({
       component: Login
     },
     {
-      path: '/Register-Customer',
-      name: 'RegisterCustomer',
-      component: RegisterCustomer
+      path: '/Register-Restaurant',
+      name: 'RegisterRestaurant',
+      component: RegisterRestaurant
     },
     {
       path: '/Landing-Admin',
