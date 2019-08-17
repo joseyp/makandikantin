@@ -7,6 +7,8 @@ import Login from '@/components/Login'
 import RegisterRestaurant from '@/components/RegisterRestaurant'
 import LandingAdmin from '@/components/LandingAdmin'
 import LandingRestoran from '@/components/LandingRestoran'
+import FormPesanan from '@/components/FormPesanan'
+
 
 Vue.use(Router)
 
@@ -41,6 +43,11 @@ export default new Router({
       path: '/Landing-Restoran',
       name: 'LandingAdmin',
       component: LandingRestoran
+    },
+    {
+      path: '/Form-Pesanan',
+      name: 'FormPesanan',
+      component: FormPesanan
     }
   ]
 })
