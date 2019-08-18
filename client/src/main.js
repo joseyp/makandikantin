@@ -24,13 +24,13 @@ import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
 
 import Header from './components/Header.vue'
-import HeaderLogin from './components/Header-Login.vue'
+import Footer from './components/Footer.vue'
 
 /* use vuesax */
 Vue.use(Vuesax)
 
-Vue.component('Header', Header)
-Vue.component('HeaderLogin', HeaderLogin)
+Vue.component('Header', Header) /* tag 'Header' buat manggil file header */
+Vue.component('Footer', Footer) /* tag 'Footer' buat manggil file footer */
 Vue.component('Icon', Icon) /* tag 'Icon' buat kalo mau pake font awesome */
 /* Vue.component('Header', require('./components/Header.vue').default)  navbar yang delum login masih dijadiin default */
 

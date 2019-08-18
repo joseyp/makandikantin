@@ -9,7 +9,6 @@ import LandingAdmin from '@/components/LandingAdmin'
 import LandingRestoran from '@/components/LandingRestoran'
 import FormPesanan from '@/components/FormPesanan'
 
-
 Vue.use(Router)
 
 export default new Router({
