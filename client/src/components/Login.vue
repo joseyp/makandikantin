@@ -4,7 +4,7 @@
   <div class="bg-of bg-loginregist-of font-of">
     <form v-on:submit.prevent="login">
       <div class="row justify-content-center">
-        <p class="font-weight-bold fonttitle-lr-of">Login</p>
+        <p class="font-weight-bold fonttitle-lr-of">Masuk</p>
       </div>
     <!-- <div  class="box-loginregist-of"> -->
        <div class="row justify-content-center">
@@ -39,14 +39,15 @@
           </div>
           <div class="row justify-content-center">
             <div>
-                <router-link to="/Landing-Admin">
+                <!-- <router-link to="/Landing-Admin"> -->
               <button type="submit" class="btn btn-primary shadow-lg btn-lr-of">Masuk</button>
-            </router-link>
+            <!-- </router-link> -->
             </div>
           </div>
       <!-- </div> -->
       </form>
   </div>
+  <Footer></Footer>
 </div>
 </template>
 
@@ -58,8 +59,8 @@ import EventBus from './EventBus'
 export default {
   data () {
     return {
-      email: 'aa',
-      password: 'aa'
+      email: '',
+      password: ''
     }
   },
 
@@ -87,14 +88,5 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#logo {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>

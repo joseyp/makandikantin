@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HeaderLogin></HeaderLogin>
+    <Header></Header>
   <div class="bg2-of font-of">
     <div class="row">
       <!-- sidebar start -->
@@ -387,6 +387,7 @@
       <!-- content end -->
     </div>
   </div>
+  <Footer></Footer>
 </div>
 </template>
 

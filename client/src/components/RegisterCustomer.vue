@@ -6,12 +6,12 @@
       <p class="font-weight-bold fonttitle-lr-of">Daftar</p>
      </div>
     <!-- <div  class="fontc-of"> -->
-    <form action="?" @submit.prevent="handleRegister">
+    <form v-on:submit.prevent="register">
     <div class="row justify-content-center">
        <div class="col-4">
          <div class="input-group input-group-lg mb-3 rounded-sm">
            <div class="input-group-prepend shadow-sm">
-             <span class="input-group-text bg-white border-white" id="inputGroup-sizing-default"><img src="../assets/img/i-name.svg"></span>
+             <span class="input-group-text bg-white border-white"><img src="../assets/img/i-name.svg"></span>
            </div>
            <input v-model="name" id="name" type="text" class="form-control border-left-0 shadow-sm border-white fontc-1-of" placeholder="Nama" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
          </div>
@@ -21,9 +21,9 @@
         <div class="col-4">
           <div class="input-group input-group-lg mb-3 rounded-sm">
             <div class="input-group-prepend shadow-sm">
-              <span class="input-group-text bg-white border-white" id="inputGroup-sizing-default"><img src="../assets/img/i-email.svg"></span>
+              <span class="input-group-text bg-white border-white"><img src="../assets/img/i-email.svg"></span>
             </div>
-            <input v-model="email" id="email" autocomplete="username" type="email" class="form-control border-left-0 shadow-sm border-white fontc-1-of" placeholder="Email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <input v-model="email" autocomplete="username" type="email" class="form-control border-left-0 shadow-sm border-white fontc-1-of" placeholder="Email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
           </div>
         </div>
       </div>
@@ -31,9 +31,9 @@
           <div class="col-4">
             <div class="input-group input-group-lg mb-3 rounded-sm">
               <div class="input-group-prepend shadow-sm">
-                <span class="input-group-text bg-white border-white" id="inputGroup-sizing-default"><img src="../assets/img/i-lock.svg"></span>
+                <span class="input-group-text bg-white border-white"><img src="../assets/img/i-lock.svg"></span>
               </div>
-              <input v-model=" password" name="password" id="password" type="password" class="form-control border-left-0 shadow-sm border-white fontc-1-of" placeholder="Kata Sandi" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              <input v-model=" password" name="password" type="password" class="form-control border-left-0 shadow-sm border-white fontc-1-of" placeholder="Kata Sandi" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@
               <label class="form-check-label" for="exampleCheck1">Punya restoran?<router-link to="/Register-Restaurant" class="text-info" href="@"> daftar disini.</router-link></label>
             </div>
             <div class="col-1">
-              <router-link to="/Login" type="submit" class="text-right text-info">Masuk</router-link>
+              <router-link to="/Login" class="text-right text-info">Masuk</router-link>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -73,18 +73,37 @@
       </form>
       <!-- </div> -->
   </div>
+  <Footer></Footer>
 </div>
 </template>
 
 <script>
+// import axios from 'axios'
+// import router from '../router'
+
 export default {
   data () {
     return {
-      name: 'aaya',
-      email: 'maya@gmail.com',
-      password: 'maya'
+      name: '',
+      email: '',
+      password: ''
     }
   }
+  // methods: {
+  //   register () {
+  //     axios.post('/.users/register',
+  //       {
+  //         this.name = ''
+  //         this.email = ''
+  //         this.password = ''
+  //       }
+  //     ).then((res) => {
+  //       router.push({ name: 'Login' })
+  //     }).catch((err) => {
+  //       console.log(err)
+  //     })
+  //   }
+  // }
 }
 </script>
 

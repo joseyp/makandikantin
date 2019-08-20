@@ -8,7 +8,7 @@
   <div class="collapse navbar-collapse pt-3" id="navbarNavAltMarkup">
     <ul class="navbar-nav ml-auto pb-1">
       <li v-if="auth=='' && (token==null || token==undefined)" class="nav-item font-weight-bold">
-        <router-link class="nav-link" to="/register">Daftar</router-link>
+        <router-link class="nav-link" to="/Register-Customer">Daftar</router-link>
       </li>
       <li  v-if="auth=='' && (token==null || token==undefined)" class="nav-item font-weight-bold">
         <router-link class="nav-link" to="/login">Masuk</router-link>
@@ -32,7 +32,7 @@
           <a class="dropdown-item" href="#">Profil</a>
           <a class="dropdown-item" href="#">...</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="" v-on:click="logout">Keluar</a>
+          <a v-if="auth=='loggedin' || token!=null || token!=undefined" class="dropdown-item" href="" v-on:click="logout">Keluar</a>
         </div>
       </li>
     </ul>
