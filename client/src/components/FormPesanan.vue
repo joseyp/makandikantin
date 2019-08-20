@@ -11,44 +11,39 @@
                     <div class="menu-1">
                         <h1> JENIS MAKANAN </h1>
                         <p> Informasi mengenai jenis makanan/minuman. Soto ayam merupakan makanan rumahan yang merupakan jenis makanan rumah yang berkuah.</p>
-				    </div>
+</div>
                         <h2>Harga :Rp. 10.000</h2>
                     <div class="col">
                         <div class="input-group input-group-lg mb-3 rounded-sm">
-                        <div class="input-group-prepend shadow-sm"></div>
-                        <input type="text" class="form-control border-left- shadow-sm border-white fontc-1-of" placeholder="Nomor Meja" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                          <div class="input-group-prepend shadow-sm"></div>
+                            <input type="text" class="form-control border-left- shadow-sm border-white fontc-1-of" placeholder="Nomor Meja" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                         </div>
                     </div>
                     <div class="qty">
-                        <span class="minus"style="background-color:#109CF1;">-</span>
+                        <span class="minus">-</span>
                         <input type="number" class="count" name="qty" value="1">
-                        <span class="plus"style="background-color:#109CF1;">+</span>
+                        <span class="plus">+</span>
                     </div>
                 </div>
             </div>
             <div class="container-1">
-            <div class="row justify-content-center">
-            <div class="col-sm-1">
-                <div class="input-group input-group-lg mb-3 rounded-sm">
-                 <input type="text" class="form-control border-left-0 shadow-sm border-white fontc-1-of" placeholder="Kembali" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                <div class="row justify-content-center">
+                    <div class="col-sm-1">
+                        <div class="input-group input-group-lg mb-3 rounded-sm">
+                            <input type="text" class="form-control border-left-0 shadow-sm border-white fontc-1-of" placeholder="Kembali" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                    </div>
+                     <div class="col-sm-1">
+                        <div class="input-group input-group-lg mb-3 rounded-sm">
+                             <input type="text" class="form-control border-left-0 shadow-sm border-white fontc-0-of" placeholder="Selanjutnya" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                         </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-1">
-           
-                <div class="input-group input-group-lg mb-3 rounded-sm">
-                <input type="text" class="form-control border-left-0 shadow-sm border-white fontc-0-of"placeholder="Selanjutnya" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-            </div>
-            </div>
-            
+        </div>
     </div>
-    </div>
-           
-    </div>   
-    </div>      
-  </div>
-  </div>
-  </div>
-  </template>
+</div>
+</template>
 
 <script>
 export default {
@@ -66,9 +61,7 @@ export default {
 .container {
   width:1010px;
   height: 100%;
-  margin:auto;
-  
-}
+  margin:auto;}
 .menu{
 width:250px;
 height:230px;
@@ -106,9 +99,7 @@ h2{
     line-height: 30px;
     padding: 0 2px
     ;min-width: 35px;
-    text-align: center;
-    
-}
+    text-align: center;}
 .plus {
     cursor: pointer;
     display: inline-block;
@@ -119,10 +110,10 @@ h2{
     font: 30px/1 Arial,sans-serif;
     text-align: center;
     border-radius: 50%;
-   
+    background-color:#109CF1;
     }
-    .minus {
-    cursor: pointer;
+.minus {
+cursor: pointer;
     display: inline-block;
     vertical-align: top;
     color: white;
@@ -132,6 +123,7 @@ h2{
     text-align: center;
     border-radius: 50%;
     background-clip: padding-box;
+    background-color:#109CF1;
 }
 div {
     text-align: center;
@@ -148,11 +140,11 @@ span{
     -moz-user-select: none;
     -ms-user-select: none;
 }
-input{  
-    border: 0;
-    width: 2%;
+input{
+border: 0;
+width: 2%;
 }
-nput::-webkit-outer-spin-button,
+input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
@@ -167,16 +159,15 @@ input:disabled{
 .col{
     margin-top:-500px;
     margin-left:-20px;
-    width:120%;
+width:120%;
     height:30px;
-}     
-.container-1{
-	margin-top:-490px;
-    margin-right:-400px;
 }
-
+.container-1
+{
+margin-top:-490px;
+margin-right:-400px;
+}
 .form-control{
      font-size:11px;
 }
-
 </style>

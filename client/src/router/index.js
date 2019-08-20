@@ -8,7 +8,7 @@ import RegisterRestaurant from '@/components/RegisterRestaurant'
 import LandingAdmin from '@/components/LandingAdmin'
 import LandingRestoran from '@/components/LandingRestoran'
 import FormPesanan from '@/components/FormPesanan'
-
+import Pembayaran from '@/components/Pembayaran'
 
 Vue.use(Router)
 
@@ -48,6 +48,16 @@ export default new Router({
       path: '/Form-Pesanan',
       name: 'FormPesanan',
       component: FormPesanan
+    },
+    {
+      path: '/Form-Pesanan',
+      name: 'FormPesanan',
+      component: FormPesanan
+    },
+    {
+      path: '/Pembayaran',
+      name: 'Pembayaran',
+      component: Pembayaran
     }
   ]
 })
