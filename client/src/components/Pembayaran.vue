@@ -1,6 +1,6 @@
 <template>
   <div>
-        <HeaderLogin></HeaderLogin>
+        <Header></Header>
 
         <div class="container">
             <div class="d-flex justify-content-center">
@@ -49,16 +49,16 @@
                 <div class="col-6 ">
                     <div class="input-group input-group-lg mb-5 rounded-lg">
                     <div class="input-group-prepend shadow-lg"></div>
-                    <input type="text" class="form-control border-left- shadow-lg border-white fontc-0-of" placeholder="Jumlah" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    <input type="text" class="form-control border-left- shadow-sm border-white fontc-0-of" placeholder="Jumlah" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
                 </div>
             </div>
             <form>
-                <div class="form-row center">
+                <div class="form-row center d-flex justify-content-center">
                     <div class="col-2">
                         <button type="submit" class="btn btn-light shadow-lg bg-white rounded">Kembali</button>
                     </div>
-                    <div class="col-1">
+                    <div class="col-1 d-flex justify-content-center">
                         <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Konfirmasi</button>
                     </div>
                 </div>

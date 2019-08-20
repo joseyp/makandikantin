@@ -1,6 +1,6 @@
 <template>
   <div>
-     <Header-Login></Header-Login>
+     <Header></Header>
   <div class="bg2-of font-of">
   <div class="container">
             <div class="row justify-content-center">

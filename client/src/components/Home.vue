@@ -11,7 +11,7 @@
 <h2>Temukan kantin terdekat disekitar mu!</h2>
 <div class="form-box">
 <input  type="search" class="search-field Location" placeholder="Location" aria-label="Search">
-<router-link to="/Form-Pesanan">
+<router-link to="/Pembayaran">
 <button class="btn btn-light bg-blue border-0 fontc-5-of" type="submit"><img src="../assets/img/i-search.svg"></button>
 </router-link>
         </div>
@@ -91,6 +91,7 @@ export default {
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
 
 .cover
@@ -196,4 +197,5 @@ form{
 p{
  color:#334D6E;
 }
+
 </style>
