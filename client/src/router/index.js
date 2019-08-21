@@ -10,11 +10,8 @@ import LandingRestoran from '@/components/LandingRestoran'
 import LandingCustomerFood from '@/components/LandingCustomerFood'
 import FormPesanan from '@/components/FormPesanan'
 import Pembayaran from '@/components/Pembayaran'
-<<<<<<< HEAD
 import PageMenu from '@/components/PageMenu'
-=======
 import Profile from '@/components/Profile'
->>>>>>> dff48d06cf24a38cf76a6b59c9abbab8a132007c
 
 Vue.use(Router)
 
@@ -71,15 +68,14 @@ export default new Router({
       component: Pembayaran
     },
     {
-<<<<<<< HEAD
       path: '/Page-Menu',
       name: 'PageMenu',
       component: PageMenu
-=======
+    },
+    {
       path: '/Profile',
       name: 'Profile',
       component: Profile
->>>>>>> dff48d06cf24a38cf76a6b59c9abbab8a132007c
     }
   ]
 })
