@@ -36,7 +36,7 @@ akan memudahkan pelanggan untuk mengetahui ketersediaan menu makanan pada suatu 
  <div class="col"><img src="../assets/img/i-name.svg">Anasya Wulandari</div>
 <div class="col"><img src="../assets/img/i-name.svg">Maya Ameliasari</div>
 <div class="w-100"></div>
-<div class="col"><img src="../assets/img/i-name.svg">Jose Yolanda Purba</div>
+<div class="col"><img src="../assets/img/i-name.svg">Jose Yolanda</div>
 <div class="col"><img src="../assets/img/i-name.svg">Sri Tangkelangi</div>
   </div>
   </div>
