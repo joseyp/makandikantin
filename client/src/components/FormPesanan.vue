@@ -1,7 +1,7 @@
 <template>
   <div>
      <Header></Header>
-  <div class="bg2-of font-of">
+  <div class="bg3-of font-of">
   <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-5 ">
@@ -42,6 +42,7 @@
             </div>
         </div>
     </div>
+    <Footer></Footer>
 </div>
 </template>
 
@@ -63,6 +64,10 @@ export default {
   height: 100%;
   margin:auto;}
 .menu{
+.bg3 of{
+    background-color: #F9FAFB;
+    height: 600px;
+}
 width:250px;
 height:230px;
 margin-top:250px;

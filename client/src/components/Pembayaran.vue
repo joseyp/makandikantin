@@ -1,7 +1,7 @@
 <template>
   <div>
         <Header></Header>
-
+     <div class="bg3-of font-of">
         <div class="container">
             <div class="d-flex justify-content-center">
                 <p>Complete your purcase</p>
@@ -84,6 +84,8 @@
             </div>
         </div>
      </div>
+     </div>
+     <Footer></Footer>
     </div>
 </template>
 <script>
@@ -102,6 +104,10 @@ export default {
     height: 100%;
     margin:auto;
     }
+.bg3 of{
+    background-color: #F9FAFB;
+    height: 1000px;
+}
 table {
   width: 50%;
 }

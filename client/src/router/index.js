@@ -9,6 +9,7 @@ import LandingAdmin from '@/components/LandingAdmin'
 import LandingRestoran from '@/components/LandingRestoran'
 import FormPesanan from '@/components/FormPesanan'
 import Pembayaran from '@/components/Pembayaran'
+import PageMenu from '@/components/PageMenu'
 
 Vue.use(Router)
 
@@ -58,6 +59,11 @@ export default new Router({
       path: '/Pembayaran',
       name: 'Pembayaran',
       component: Pembayaran
+    },
+    {
+      path: '/Page-Menu',
+      name: 'PageMenu',
+      component: PageMenu
     }
   ]
 })

@@ -3,7 +3,7 @@
   <div>
   <Header></Header>
  <div>
-  <div class="bg2-of font-of">
+  <div class="bg3-of font-of">
     <div class="cover">
  <div class="awal">
  <form style="margin-top: 150px">
@@ -11,7 +11,7 @@
 <h2>Temukan kantin terdekat disekitar mu!</h2>
 <div class="form-box">
 <input  type="search" class="search-field Location" placeholder="Location" aria-label="Search">
-<router-link to="/Pembayaran">
+<router-link to="/Landing-Customer-Food">
 <button class="btn btn-light bg-blue border-0 fontc-5-of" type="submit"><img src="../assets/img/i-search.svg"></button>
 </router-link>
         </div>
@@ -36,7 +36,7 @@ akan memudahkan pelanggan untuk mengetahui ketersediaan menu makanan pada suatu 
  <div class="col"><img src="../assets/img/i-name.svg">Anasya Wulandari</div>
 <div class="col"><img src="../assets/img/i-name.svg">Maya Ameliasari</div>
 <div class="w-100"></div>
-<div class="col"><img src="../assets/img/i-name.svg">Josse</div>
+<div class="col"><img src="../assets/img/i-name.svg">Jose Yolanda Purba</div>
 <div class="col"><img src="../assets/img/i-name.svg">Sri Tangkelangi</div>
   </div>
   </div>
@@ -78,6 +78,7 @@ akan memudahkan pelanggan untuk mengetahui ketersediaan menu makanan pada suatu 
              </div>
         </div>
   </div>
+  <Footer></Footer>
 </div>
 </template>
 <script>
@@ -99,6 +100,10 @@ export default {
 background-image: url('~@/assets/img/bg beranda 1.svg');
 background-size:100% auto;
 margin-bottom:100px;
+}
+.bg3 of{
+    background-color: #F9FAFB;
+    height: 3000px;
 }
 .awal
 {
