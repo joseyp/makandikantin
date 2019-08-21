@@ -7,8 +7,10 @@ import Login from '@/components/Login'
 import RegisterRestaurant from '@/components/RegisterRestaurant'
 import LandingAdmin from '@/components/LandingAdmin'
 import LandingRestoran from '@/components/LandingRestoran'
+import LandingCustomerFood from '@/components/LandingCustomerFood'
 import FormPesanan from '@/components/FormPesanan'
 import Pembayaran from '@/components/Pembayaran'
+import Profile from '@/components/Profile'
 
 Vue.use(Router)
 
@@ -45,6 +47,11 @@ export default new Router({
       component: LandingRestoran
     },
     {
+      path: '/Landing-CustomerFood',
+      name: 'LandingCustomerFood',
+      component: LandingCustomerFood
+    },
+    {
       path: '/Form-Pesanan',
       name: 'FormPesanan',
       component: FormPesanan
@@ -58,6 +65,11 @@ export default new Router({
       path: '/Pembayaran',
       name: 'Pembayaran',
       component: Pembayaran
+    },
+    {
+      path: '/Profile',
+      name: 'Profile',
+      component: Profile
     }
   ]
 })

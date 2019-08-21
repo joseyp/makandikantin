@@ -141,6 +141,18 @@ height: 1000px;
 .fontc-7-of{
   color: #C24447;
 }
+
+.fontc-8-of{
+  color: #334D6E;
+  font-size: 30px;
+  text-align: center;
+}
+
+.fontc-9-of{
+  color: #334D6F;
+  text-align: center;
+}
+
 .font14-of{
   font-size: 14px;
 }
@@ -151,6 +163,19 @@ height: 1000px;
 
 .btns-1-of{
   border: 1px solid #90A0B7;
+}
+
+.btns-2-of{
+  background: #3DB39E;
+  border-radius: 5px;
+  color: white;
+  margin-left: 200px;
+}
+
+.icon-1-of{
+  height: 120px;
+  width: 120px;
+  margin-left: 165px;
 }
 
 .alert-of{
@@ -169,6 +194,10 @@ height: 1000px;
 .footer-of{
   background: #109CF1;
   height: 55px;
+}
+
+.pd1-of{
+  margin-left: 230px;
 }
 /*
 

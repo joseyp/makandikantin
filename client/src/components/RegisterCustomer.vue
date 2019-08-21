@@ -65,13 +65,36 @@
         </div>
         <div class="row justify-content-center">
              <div>
-               <router-link to="/Landing-Restoran">
-               <button type="submit" class="btn btn-primary shadow-lg btn-lr-of">Daftar</button>
-             </router-link>
+               <button type="submit" class="btn btn-primary shadow-lg btn-lr-of" data-toggle="modal" data-target="#exampleModalLong">Daftar</button>
              </div>
         </div>
       </form>
       <!-- </div> -->
+
+      <!-- Modal resgistrasi success start-->
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog shadow-sm border-white" role="document">
+          <div class="modal-content pt-3 pb-4">
+            <div class="modal-header border-white">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="icon-1-of" src="../assets/img/i-checked.svg">
+              <span><p class="font-weight-bold fontc-8-of">Success!</p>
+              <p class="fontc-9-of">Your Account has been created.</p> </span>
+            </div>
+            <div>
+              <router-link to="/Landing-CustomerFood">
+                <button type="button" class="btn btn-success border-0 btns-2-of">Continue</button>
+              </router-link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal resgistrasi success start end-->
+
   </div>
   <Footer></Footer>
 </div>
