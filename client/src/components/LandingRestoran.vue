@@ -7,10 +7,11 @@
       <div class="col-2 pt-5 bg-white shadow-sm p-3 mb-5 bg-white rounded sidebar-of">
         <div class="nav flex-column fontc-1-of" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           <a class="pb-2 pl-3 fontc-2-of">USER MANAGEMENT</a>
+          <a><button type="button" class="btn btn-primary rounded-lg shadow-sm border-primary text-white font14-of" data-toggle="modal" data-target="#modalTambah"><img src="../assets/img/i-add.svg">  Tambah</button></a>
           <a class="nav-link text-muted" id="v-pills-home-tab" data-toggle="pill" href="#beranda" role="tab" aria-controls="v-pills-home" aria-selected="true">Beranda</a>
           <a class="nav-link text-muted" id="v-pills-profile-tab" data-toggle="pill" href="#restoran" role="tab" aria-controls="v-pills-profile" aria-selected="false">Menu</a>
           <a class="nav-link text-muted" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Notifikasi</a>
-          <a class="nav-link text-muted" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">History</a>
+          <!-- <a class="nav-link text-muted" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">History</a> -->
         </div>
       </div>
       <!-- sidebar end -->
